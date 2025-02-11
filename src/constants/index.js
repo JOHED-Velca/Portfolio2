@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    python
   } from "../assets";
   
   export const navLinks = [
@@ -53,10 +54,10 @@ import {
       title: "Backend Developer",
       icon: backend,
     },
-    // {
-    //   title: "Content Creator",
-    //   icon: creator,
-    // },
+    {
+      title: "Freelancer",
+      icon: creator,
+    },
   ];
   
   const technologies = [
@@ -72,10 +73,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -96,10 +97,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    // {
-    //   name: "Three JS",
-    //   icon: threejs,
-    // },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
     {
       name: "git",
       icon: git,
@@ -111,6 +112,10 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "python",
+      icon: python,
     },
   ];
   
