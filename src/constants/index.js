@@ -23,7 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
-    python
+    python,
+    java,
+    Login,
+    weatherapp
   } from "../assets";
   
   export const navLinks = [
@@ -47,8 +50,8 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Java Developer",
+      icon: java,
     },
     {
       title: "Backend Developer",
@@ -61,6 +64,10 @@ import {
   ];
   
   const technologies = [
+    {
+      name: "Java",
+      icon: java,
+    },
     {
       name: "HTML 5",
       icon: html,
@@ -221,49 +228,45 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/JOHED-Velca/CarRental",
     },
     {
-      name: "Job IT",
+      name: "Login GUI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A Login application that validates login credentials and registers new users using MySQL.",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MySQL",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: Login,
+      source_code_link: "https://github.com/JOHED-Velca/Login",
     },
     {
-      name: "Trip Guide",
+      name: "Weather App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A weather application that fetches data from an external API, process it and shows it back to the user.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "API",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "css",
+        //   color: "pink-text-gradient",
+        // },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: weatherapp,
+      source_code_link: "https://github.com/JOHED-Velca/WeatherApp-Java",
     },
   ];
   
