@@ -26,7 +26,9 @@ import {
     python,
     java,
     Login,
-    weatherapp
+    weatherapp,
+    springboot,
+    mysql
   } from "../assets";
   
   export const navLinks = [
@@ -69,13 +71,21 @@ import {
       icon: java,
     },
     {
-      name: "HTML 5",
-      icon: html,
+      name: "springboot",
+      icon: springboot,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "mysql",
+      icon: mysql,
     },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
     {
       name: "JavaScript",
       icon: javascript,

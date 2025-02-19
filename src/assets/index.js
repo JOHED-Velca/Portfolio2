@@ -22,6 +22,8 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.svg";
 import java from "./tech/java.svg";
+import springboot from "./tech/springboot.svg";
+import mysql from "./tech/mysql.svg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -66,5 +68,7 @@ export {
   Login,
   python,
   java,
-  weatherapp
+  weatherapp,
+  springboot,
+  mysql
 };

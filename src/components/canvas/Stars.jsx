@@ -7,7 +7,7 @@ import { div } from 'framer-motion/client';
 const Stars = (props) => {
   const ref = useRef();
 
-  const sphere = random.inSphere(new Float32Array (5000), { radius: 1.2 }) //number of stars
+  const sphere = random.inSphere(new Float32Array (10000), { radius: 1.2 }) //number of stars
 
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta /10;
