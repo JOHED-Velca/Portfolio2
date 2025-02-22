@@ -5,7 +5,7 @@ import {styles} from '../styles';
 import {navLinks} from '../constants';
 import {menu, close} from '../assets';
 
-import jLogo from '../assets/j_logo.svg';
+import jLogo from '../assets/J_logo.svg';
 
 const Navbar = () => {
   const [active, setActive] = useState(' ');
