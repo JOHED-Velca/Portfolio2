@@ -1,3 +1,4 @@
+import { image } from "framer-motion/client";
 import {
     mobile,
     backend,
@@ -15,6 +16,7 @@ import {
     git,
     figma,
     docker,
+    bbva,
     meta,
     starbucks,
     tesla,
@@ -28,7 +30,9 @@ import {
     Login,
     weatherapp,
     springboot,
-    mysql
+    mysql,
+    questionMark,
+    fortran
   } from "../assets";
   
   export const navLinks = [
@@ -138,57 +142,68 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer intern",
+      company_name: "BBVA",
+      icon: bbva,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "January 2020 - December 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Maintained and optimized Java-based legacy systems, improving performance by 20% and reducing incidents by 15%, ensuring stability for core banking operations.",
+        "Refactored and integrated Spring Boot microservices into legacy systems, enabling new banking features and reducing system response times by 30%.",
+        "Optimized MySQL queries and indexing, cutting query execution time by 40%, which improved transaction processing speeds and system efficiency.",
+        "Developed automated logging and testing tools, reducing debugging time by 10+ hours per month and increasing code coverage from 60% to 85% with JUnit test cases.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Electrical Assembler Technician",
+      company_name: "Fortran Traffic Systems",
+      icon: fortran,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized a local RAG Llama 2 LLM as an assistant for testing and diagnosing cabinet functionality, improving efficiency in identifying wiring issues.",
+        "Assembled and wired traffic control cabinets used in Toronto's traffic system, ensuring compliance with electrical schematics and safety standards.",
+        "Installed and connected power supplies, relays, circuit breakers, and controllers within the cabinets to meet municipal specifications.",
+        "Followed quality control procedures to ensure all components were properly secured and met industry regulations.",
+        "Read and interpreted technical drawings and wiring diagrams, collaborating with engineers and supervisors to resolve assembly challenges.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Job Hunting!",
+      company_name: "",
+      icon: questionMark,
+      iconBg: "#383E56",
+      date: "Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "",
       ],
     },
+    // {
+    //   title: "React.js Developer",
+    //   company_name: "Starbucks",
+    //   icon: starbucks,
+    //   iconBg: "#383E56",
+    //   date: "March 2020 - April 2021",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "React Native Developer",
+    //   company_name: "Tesla",
+    //   icon: tesla,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2021 - Feb 2022",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [

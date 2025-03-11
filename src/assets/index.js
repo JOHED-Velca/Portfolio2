@@ -29,6 +29,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bbva from "./company/bbva.png";
+import questionMark from "./company/questionMark.png";
+import fortran from "./company/fortran.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -58,6 +61,7 @@ export {
   tailwind,
   typescript,
   threejs,
+  bbva,
   meta,
   shopify,
   starbucks,
@@ -70,5 +74,7 @@ export {
   java,
   weatherapp,
   springboot,
-  mysql
+  mysql,
+  questionMark,
+  fortran
 };
