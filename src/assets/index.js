@@ -1,3 +1,4 @@
+//Services
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -5,6 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import Web3 from "./devServices/web3.png";
+import mobileDev from "./devServices/mobileDev.png";
 
 //Technologies
 import css from "./tech/css.png";
@@ -53,6 +56,8 @@ export {
   creator,
   mobile,
   web,
+  Web3,
+  mobileDev,
   github,
   menu,
   close,

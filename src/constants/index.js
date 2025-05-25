@@ -35,6 +35,8 @@ import {
     easyaLogo,
     MovieApp,
     CycleBuddy,
+    mobileDev,
+    Web3,
   } from "../assets";
   
   export const navLinks = [
@@ -54,8 +56,16 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web2 Developer",
       icon: web,
+    },
+    {
+      title: "Web3 Developer",
+      icon: Web3,
+    },
+    {
+      title: "Mobile Developer",
+      icon: mobileDev,
     },
     {
       title: "Java Developer",
@@ -69,6 +79,7 @@ import {
       title: "Freelancer",
       icon: creator,
     },
+    
   ];
   
   const technologies = [

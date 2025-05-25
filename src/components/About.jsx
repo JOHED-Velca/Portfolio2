@@ -43,8 +43,8 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled software developer with expirience in 
-        Java, Spring Boot, MySQL, React and Javascript. I'm a 
-        quick learner and collaborate closely with clients 
+        React, React Native, Javascript, Typescript, Rust and Web3. I'm a 
+        quick learner and team player. I like to collaborate closely with coworkers 
         to create efficient, scalable and user-friendly 
         solutions that solve real-world problems. Let's 
         work together to bring your ideas to life! 
