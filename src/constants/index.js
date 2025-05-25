@@ -22,8 +22,6 @@ import {
     tesla,
     shopify,
     carrent,
-    jobit,
-    tripguide,
     threejs,
     python,
     java,
@@ -32,7 +30,11 @@ import {
     springboot,
     mysql,
     questionMark,
-    fortran
+    fortran,
+    extrahopLogo,
+    easyaLogo,
+    MovieApp,
+    CycleBuddy,
   } from "../assets";
   
   export const navLinks = [
@@ -82,22 +84,22 @@ import {
       name: "mysql",
       icon: mysql,
     },
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
     {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
@@ -169,6 +171,29 @@ import {
       ],
     },
     {
+      title: "ExtraHop Hackathon",
+      company_name: "ExtraHop",
+      icon: extrahopLogo,
+      iconBg: "#383E56",
+      date: "April 23-2025",
+      points: [
+        "A hands-on cybersecurity competition testing threat detection and response skills. I took 1st place! 🏆The challenge was both intense and rewarding, reinforcing my passion for cybersecurity and the power of real-time network defense tools like ExtraHop’s platform. ",
+      ],
+    },
+    {
+      title: "EasyA Hackathon",
+      company_name: "EasyA",
+      icon: easyaLogo,
+      iconBg: "#383E56",
+      date: "May 14-2025",
+      points: [
+        "EasyAConsensus, a blockchain/crypto hackathon! We built a Web3 DApp that empowers women to track their menstrual cycles while retaining full ownership of their data. Even cooler? Users earn crypto rewards for contributing anonymized data to research.",
+        "My Role: Led the team as a Project Manager & Blockchain Developer",
+        "Learned & implemented Rust for smart contracts",
+        "Built the front end with Vite + React for a smooth user experience",
+      ],
+    },
+    {
       title: "Job Hunting!",
       company_name: "",
       icon: questionMark,
@@ -178,32 +203,6 @@ import {
         "",
       ],
     },
-    // {
-    //   title: "React.js Developer",
-    //   company_name: "Starbucks",
-    //   icon: starbucks,
-    //   iconBg: "#383E56",
-    //   date: "March 2020 - April 2021",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "React Native Developer",
-    //   company_name: "Tesla",
-    //   icon: tesla,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2021 - Feb 2022",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
   ];
   
   const testimonials = [
@@ -234,6 +233,48 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Movie Mobile app",
+      description:
+        "A react native mobile application that allows users to search and view movies, providing a seamless experience for movie enthusiasts.",
+      tags: [
+        {
+          name: "react-native",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "External API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: MovieApp,
+      source_code_link: "https://github.com/JOHED-Velca/mobile_movie_app",
+    },
+    {
+      name: "Cycle Buddy",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: CycleBuddy,
+      source_code_link: "https://github.com/Bra-AM/CycleBuddy-stellar",
+    },
     {
       name: "Car Rent",
       description:
@@ -285,10 +326,6 @@ import {
           name: "API",
           color: "green-text-gradient",
         },
-        // {
-        //   name: "css",
-        //   color: "pink-text-gradient",
-        // },
       ],
       image: weatherapp,
       source_code_link: "https://github.com/JOHED-Velca/WeatherApp-Java",

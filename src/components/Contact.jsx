@@ -64,6 +64,9 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>Phone: +1 437 984 4454</p>
+        <p className={styles.sectionSubText}>Email: johedvelca@gmail.com</p>
+
 
         <form
           ref={formRef}

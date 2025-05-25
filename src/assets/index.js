@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -7,6 +6,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+//Technologies
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -25,22 +25,30 @@ import java from "./tech/java.svg";
 import springboot from "./tech/springboot.svg";
 import mysql from "./tech/mysql.svg"
 
+//company logos
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import bbva from "./company/bbva.png";
 import questionMark from "./company/questionMark.png";
-import fortran from "./company/fortran.jpg"
+import fortran from "./company/fortran.jpg";
+import extrahopLogo from "./company/extrahop.jpg";
+import easyaLogo from "./company/easya.jpeg";
 
+//projects
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
 import Login from "./Login.png";
-import weatherapp from "./weatherapp.png"
+import weatherapp from "./weatherapp.png";
+import MovieApp from "./projects/MovieApp.jpeg";
+import CycleBuddy from "./projects/cyclebuddy.png";
+
+
+//Hackathons
+import extrahop from "./photos/extrahopHackathon.jpeg";
+import easya from "./photos/easyaHackathon.jpeg";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -66,15 +74,19 @@ export {
   shopify,
   starbucks,
   tesla,
+  extrahopLogo,
+  easyaLogo,
   carrent,
-  jobit,
-  tripguide,
   Login,
+  MovieApp,
+  CycleBuddy,
   python,
   java,
   weatherapp,
   springboot,
   mysql,
   questionMark,
-  fortran
+  fortran,
+  extrahop,
+  easya,
 };
