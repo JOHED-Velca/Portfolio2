@@ -182,17 +182,17 @@ import {
       ],
     },
     {
-      title: "ExtraHop Hackathon",
+      title: "🏆1st Place Winner ExtraHop Hackathon",
       company_name: "ExtraHop",
       icon: extrahopLogo,
       iconBg: "#383E56",
       date: "April 23-2025",
       points: [
-        "A hands-on cybersecurity competition testing threat detection and response skills. I took 1st place! 🏆The challenge was both intense and rewarding, reinforcing my passion for cybersecurity and the power of real-time network defense tools like ExtraHop’s platform. ",
+        "A hands-on cybersecurity competition testing threat detection and response skills. I took 1st place! The challenge was both intense and rewarding, reinforcing my passion for cybersecurity and the power of real-time network defense tools like ExtraHop’s platform. ",
       ],
     },
     {
-      title: "EasyA Hackathon",
+      title: "🏆1st Place Winner EasyA Hackathon",
       company_name: "EasyA",
       icon: easyaLogo,
       iconBg: "#383E56",
@@ -268,7 +268,7 @@ import {
     {
       name: "Cycle Buddy",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "a Web3 DApp that empowers women to track their menstrual cycles while retaining full ownership of their data. Even cooler? Users earn crypto rewards for contributing anonymized data to research.",
       tags: [
         {
           name: "react",
