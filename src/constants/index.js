@@ -37,6 +37,9 @@ import {
     CycleBuddy,
     mobileDev,
     Web3,
+    extrahop,
+    easya,
+    // jobHunting,
   } from "../assets";
   
   export const navLinks = [
@@ -166,6 +169,7 @@ import {
         "Optimized MySQL queries and indexing, cutting query execution time by 40%, which improved transaction processing speeds and system efficiency.",
         "Developed automated logging and testing tools, reducing debugging time by 10+ hours per month and increasing code coverage from 60% to 85% with JUnit test cases.",
       ],
+      image: "",
     },
     {
       title: "Electrical Assembler Technician",
@@ -180,6 +184,7 @@ import {
         "Followed quality control procedures to ensure all components were properly secured and met industry regulations.",
         "Read and interpreted technical drawings and wiring diagrams, collaborating with engineers and supervisors to resolve assembly challenges.",
       ],
+      image: "",
     },
     {
       title: "🏆1st Place Winner ExtraHop Hackathon",
@@ -190,6 +195,7 @@ import {
       points: [
         "A hands-on cybersecurity competition testing threat detection and response skills. I took 1st place! The challenge was both intense and rewarding, reinforcing my passion for cybersecurity and the power of real-time network defense tools like ExtraHop’s platform. ",
       ],
+      image: extrahop,
     },
     {
       title: "🏆1st Place Winner EasyA Hackathon",
@@ -203,6 +209,7 @@ import {
         "Learned & implemented Rust for smart contracts",
         "Built the front end with Vite + React for a smooth user experience",
       ],
+      image: easya,
     },
     {
       title: "Job Hunting!",
@@ -213,6 +220,7 @@ import {
       points: [
         "",
       ],
+      image: "",
     },
   ];
   

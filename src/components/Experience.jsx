@@ -38,6 +38,9 @@ const ExperienceCard = ({ experience }) => (
         </li>
       ))}
     </ul>
+    {experience.image &&(<div className='mt-10 mb-10 bg-[#c1ccff] rounded-lg p-2'>
+      <img src={experience.image} alt="" className='mt-1 mb-1' />
+    </div>)}
   </VerticalTimelineElement>
 )
 
